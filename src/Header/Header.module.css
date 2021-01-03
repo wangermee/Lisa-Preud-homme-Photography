@@ -1,0 +1,19 @@
+.Header{
+    color:#030303;
+    
+
+    background-color: #e7e7e7;
+    font-family: 'Quicksand', sans-serif;
+}
+.Header h1{
+    font-size: 67px;
+    font-weight: normal;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+
+}
+.Header h2{
+    font-size: 42px;
+    font-weight: normal;
+}

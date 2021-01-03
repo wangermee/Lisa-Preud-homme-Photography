@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import Header from "./Header/Header";
 import "./App.css"
+import Header from "./Header/Header";
+import NavBar from "./NavBar/NavBar"
+
 
 
 export default class App extends Component{
@@ -8,6 +10,7 @@ export default class App extends Component{
     return (
       <>
       <Header/>
+      <NavBar/>
       </>
     )
 

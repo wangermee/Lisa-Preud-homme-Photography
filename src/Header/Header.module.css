@@ -1,19 +1,46 @@
 .Header{
     color:#030303;
     text-align: center;
-
-    background-color: #e7e7e7;
     font-family: 'Quicksand', sans-serif;
+
 }
 .Header h1{
-    font-size: 67px;
     font-weight: normal;
-    text-decoration-line: underline;
-    text-decoration-style: double;
-    text-decoration-thickness: 2px;
+    padding: 20px 10px 0 10px;
 
 }
+.Header div{
+    border-top: double  black;
+    width: 270px;
+    display: inline-block;
+}
 .Header h2{
-    font-size: 42px;
     font-weight: normal;
+    padding: 0 0 20px 0;
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 992px) {
+    .Header h1{
+        font-size: 67px;
+        padding: 40px 10px 0 10px;
+    }
+    .Header h2{
+        font-size: 42px;
+        padding: 0 0 150px 0;
+    }
+    .Header div{
+        width: 560px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
 }

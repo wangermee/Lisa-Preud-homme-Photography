@@ -19,7 +19,9 @@ export default class NavBar extends Component {
     render (){
         return (
             <section className={classes.NavBar}>
-                {this.state.link.map(link=>(<NavLink key={link.id} {...link} />))}
+                <div className={classes.Wrap}>
+                    {this.state.link.map(link=>(<NavLink key={link.id} {...link} />))}
+                </div>
             </section>
         )
     }

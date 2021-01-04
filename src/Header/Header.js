@@ -6,7 +6,11 @@ export default class Header extends Component{
         return(
             <header className={classes.Header} >
                 <h1>Lisa Preud'homme</h1>
-                <h2>Photographe</h2>
+                <div>
+                    <h2>Photographe</h2>
+                </div>
+                
+                
             </header>
         )
     }

@@ -1,7 +1,36 @@
 .NavBar{
     background-color: #e7e7e7;
+    padding-bottom: 20px;
 }
 .NavBar a{
     color:#030303;
     text-decoration: none;
+    font-family: 'Redressed', cursive;
+}
+.NavBar div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    .NavBar a{
+        font-size: 30px;
+    }
+   
+}
+
+@media screen and (min-width: 992px) {
+    .NavBar a{
+        font-size: 60px;
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
 }

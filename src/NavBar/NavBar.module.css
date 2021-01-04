@@ -7,6 +7,9 @@
     text-decoration: none;
     font-family: 'Redressed', cursive;
 }
+.NavBar a:hover{
+    text-decoration: underline;
+}
 .NavBar div{
     display: flex;
     justify-content: space-evenly;

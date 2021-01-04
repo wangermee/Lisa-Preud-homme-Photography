@@ -1,0 +1,55 @@
+.sectionAPropos{
+    color:#030303;
+    font-family: 'Quicksand', sans-serif;
+}
+.sectionAPropos .content{
+
+}
+.sectionAPropos .contentFR {
+    
+    font-size: 24px;
+    padding: 40px ;
+}
+.sectionAPropos .contentEN {
+    font-size: 18px;
+    padding: 0 40px 40px 40px;
+    font-style: italic;
+}
+.sectionAPropos img{
+    width: 100%;
+}
+.sectionAPropos .CV article{
+    text-align: end;
+    padding: 40px;
+}
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 992px) {
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .sectionAPropos .content{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .sectionAPropos .content article{
+        width: 70%;
+    }
+    .sectionAPropos .content+div{
+        width: 30%;
+    }
+    .sectionAPropos .contentFR {
+        padding: 0 40px 40px 40px;
+    }
+
+}

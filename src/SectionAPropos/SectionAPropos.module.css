@@ -3,7 +3,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 .sectionAPropos .content{
-
+    max-width: 1500px;
+    margin: auto;
+}
+.sectionAPropos h4{
+    font-size: 20px;
 }
 .sectionAPropos .contentFR {
     
@@ -17,6 +21,10 @@
 }
 .sectionAPropos img{
     width: 100%;
+}
+.sectionAPropos .CV {
+    max-width: 1500px;
+    margin: auto;
 }
 .sectionAPropos .CV article{
     text-align: end;
@@ -37,19 +45,36 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .sectionAPropos img{
+        width: 500px; 
+     }
+     .sectionAPropos .content img{
+        padding-right: 20px;
+     }
     .sectionAPropos .content{
         display: flex;
         flex-direction: row-reverse;
-
     }
+
     .sectionAPropos .content article{
         width: 70%;
     }
-    .sectionAPropos .content+div{
-        width: 30%;
-    }
+
     .sectionAPropos .contentFR {
         padding: 0 40px 40px 40px;
     }
+    .sectionAPropos .CV{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sectionAPropos .CV article{
+        
+    }
+    .sectionAPropos .CV img{
+        padding-left: 20px;
+    }
+    
+
 
 }

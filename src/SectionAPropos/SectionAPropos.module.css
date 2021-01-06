@@ -2,12 +2,16 @@
     color:#030303;
     font-family: 'Quicksand', sans-serif;
 }
+.sectionAPropos p{
+    font-size: 24px;
+} 
 .sectionAPropos .content{
     max-width: 1500px;
     margin: auto;
 }
 .sectionAPropos h4{
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 .sectionAPropos .contentFR {
     
@@ -29,6 +33,9 @@
 .sectionAPropos .CV article{
     text-align: end;
     padding: 40px;
+}
+.sectionAPropos .Expositions{
+    padding-bottom: 40px;
 }
 @media screen and (min-width: 576px) {
 
@@ -68,9 +75,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .sectionAPropos .CV article{
-        
-    }
+   
     .sectionAPropos .CV img{
         padding-left: 20px;
     }

@@ -1,0 +1,13 @@
+.ContentPrix {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ContentPrix p{
+    white-space: nowrap;
+}
+.ContentPrix .pointille{
+    width: inherit;
+    border-bottom: 1px dashed black ;
+    margin: 0 20px;
+}

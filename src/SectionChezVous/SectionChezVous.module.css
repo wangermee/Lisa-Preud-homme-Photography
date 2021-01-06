@@ -1,0 +1,26 @@
+.SectionChezVous  {
+    max-width: 1200px;
+    margin: auto;
+    color:#030303;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    
+}
+.SectionChezVous article {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+
+}
+.SectionChezVous h4{
+    margin: 60px 0 0px 0;
+}
+.SectionChezVous h5{
+    margin: 40px 0 10px 0;
+    font-size: 20px;
+}
+.SectionChezVous .content{
+    text-align: center;
+    padding: 0 20px 0 20px;
+    
+}

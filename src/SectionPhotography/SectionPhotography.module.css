@@ -1,0 +1,21 @@
+.SectionPhotography {
+    
+}
+.SectionPhotography div{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.SectionPhotography img {
+    display: block;
+    width:500px;
+}
+.SectionPhotography img:hover {
+	transition-duration: 1s;
+    -webkit-transform:scale(1.1); /* Safari et Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* Internet Explorer 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}

@@ -2,6 +2,11 @@ import classes from "./SectionChezVous.module.css"
 import React, { Component } from "react"
 import Titre from "../Titre/Titre"
 import ContentPrix from "./ContentPrix/ContentPrix"
+import photo1 from "../assets/img/SectionChezVous/1_ChezVous.png"
+import photo2 from "../assets/img/SectionChezVous/2_ChezVous.png"
+import photo3 from "../assets/img/SectionChezVous/3_ChezVous.png"
+import photo4 from "../assets/img/SectionChezVous/4_ChezVous.png"
+import photo5 from "../assets/img/SectionChezVous/5_ChezVous.png"
 
 
 export default class SectionChezVous extends Component{
@@ -46,6 +51,17 @@ export default class SectionChezVous extends Component{
                         {this.state.petitesCartes.map(items=>(<ContentPrix key={items.id}{...items}/>))}
                     </div>
                 </article>
+                <div className={classes.gallerie}>
+                    <div>
+                        <img src={photo1} alt="exemple decrotion 1"/>
+                        <img src={photo2} alt="exemple decrotion 2"/>
+                    </div>
+                    <div>
+                        <img src={photo3} alt="exemple decrotion 3"/>
+                        <img src={photo4} alt="exemple decrotion 4"/>
+                        <img src={photo5} alt="exemple decrotion 5"/>
+                    </div>
+                </div>
             </section>
             
         )

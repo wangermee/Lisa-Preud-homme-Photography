@@ -9,7 +9,7 @@
 .SectionChezVous article {
     max-width: 800px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 20px 40px 20px;
 
 }
 .SectionChezVous h4{
@@ -23,4 +23,56 @@
     text-align: center;
     padding: 0 20px 0 20px;
     
+}
+.SectionChezVous  .gallerie div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SectionChezVous  .gallerie img{
+    width: 80%;
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 992px) {
+    .SectionChezVous  .gallerie div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .SectionChezVous  .gallerie div img{
+        width: 20%;
+    }
+    .SectionChezVous  .gallerie div:nth-child(1) img:nth-child(2){
+        width: 70%;
+    }
+    .SectionChezVous  .gallerie div:nth-child(2) img:nth-child(2){
+        width: 30%;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .SectionChezVous  .gallerie div img:nth-child(1){
+        width: 20%;
+    }
+    .SectionChezVous  .gallerie div img:nth-child(2){
+        width: 70%;
+    }
+
+
+
 }

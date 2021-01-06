@@ -5,6 +5,7 @@ import Portrait from "../assets/img/SectionAPropos/portrait.png"
 import Expo from "../assets/img/SectionAPropos/expo.png"
 import ContentCV from "./ContentCV/ContentCV"
 
+
 export default class SectionAPropos extends Component{
     state={
         expositions:[

@@ -1,6 +1,7 @@
 .NavBar{
     background-color: #e7e7e7;
     padding-bottom: 20px;
+    padding: 40px 0 20px 0;
 }
 .NavBar a{
     color:#030303;
@@ -9,6 +10,12 @@
 }
 .NavBar a:hover{
     text-decoration: underline;
+    transition-duration: 1s;
+    -webkit-transform:scale(1.1); /* Safari et Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* Internet Explorer 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
 }
 .NavBar div{
     display: flex;
@@ -29,7 +36,6 @@
 
 @media screen and (min-width: 992px) {
     .NavBar a{
-        font-size: 60px;
         padding: 0 20px 0 20px;
     }
 }
